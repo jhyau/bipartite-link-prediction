@@ -43,16 +43,16 @@ class LoopLogger():
         self.n += 1
         if self.n % self.step_size == 0:
             if self.size == 0:
-                print 'On item ' + str(self.n)
+                print('On item ' + str(self.n))
             else:
-                print '{:}/{:}, {:.1f}%,'.format(self.n, self.size,
-                                                 100.0 * self.n / self.size),
+                print('{:}/{:}, {:.1f}%,'.format(self.n, self.size,
+                                                 100.0 * self.n / self.size)),
                 if self.print_time:
                     time_elapsed = time() - self.start_time
-                    print "elapsed: {:.1f}s,".format(time_elapsed),
+                    print("elapsed: {:.1f}s,".format(time_elapsed)), 
                     time_per_step = time_elapsed / self.n
-                    print "remaining: {:.1f}s".format((self.size - self.n)
-                                                      * time_per_step)
+                    print("remaining: {:.1f}s".format((self.size - self.n)
+                                                      * time_per_step))
 
 
 def logged_loop(iterable, loop_logger):
