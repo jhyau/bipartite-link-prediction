@@ -1,5 +1,5 @@
 # Forked Repo
-This project is also for a class project for Stanford's CS224W: Machine Learning with Graphs class. Specifically, the simple_make_dataset is added to generate data from the OAG graph, and random_walks is modified to fit OAG data format.
+This project is also for a class project for Stanford's CS224W: Machine Learning with Graphs class. Specifically, the simple_make_dataset is added to generate data from the OAG graph, and random_walks is modified to fit OAG data format. Also added a file to calculate results of the random walk.
 
 # Bipartite Link Prediction
 This project explores various methods for bipartite link prediction using Yelp's Dataset Challenge dataset. In particular, we try to predict which restaurants a particular user will review. This was done as a class project for Stanford's Social and Information Network Analysis class ([CS224W](http://web.stanford.edu/class/cs224w/index.html)). The final report is included in the repository (writeups/final_report.pdf). It requires scikit-learn, networkx, and snap.py to run.
